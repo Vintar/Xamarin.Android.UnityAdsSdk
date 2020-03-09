@@ -17,7 +17,7 @@
   </metadata>
 
   <files>
-    <file src="Xamarin.Android.UnityAdsSdk/bin/Release/Xamarin.Android.MediationTestSuite.dll" target="lib/MonoAndroid10/Xamarin.Android.UnityAdsSdk.dll" />
+    <file src="Xamarin.Android.UnityAdsSdk/bin/Release/Xamarin.Android.UnityAdsSdk.dll" target="lib/MonoAndroid10/Xamarin.Android.UnityAdsSdk.dll" />
   </files>
 
 </package>

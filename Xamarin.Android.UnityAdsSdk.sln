@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Android.UnityAdsSdk", "Xamarin.Android.UnityAdsSdk\Xamarin.Android.UnityAdsSdk.csproj", "{D5EC8ADB-1BBE-46F5-B07F-C9428B4982EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{540C5756-F853-41C8-9D19-36C8B62CE8DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityAdsSdkSample.Droid", "UnityAdsSdkSample.Droid\UnityAdsSdkSample.Droid.csproj", "{B530FAFF-C104-41E1-BF28-FD8385ED67DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5EC8ADB-1BBE-46F5-B07F-C9428B4982EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5EC8ADB-1BBE-46F5-B07F-C9428B4982EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5EC8ADB-1BBE-46F5-B07F-C9428B4982EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5EC8ADB-1BBE-46F5-B07F-C9428B4982EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B530FAFF-C104-41E1-BF28-FD8385ED67DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B530FAFF-C104-41E1-BF28-FD8385ED67DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B530FAFF-C104-41E1-BF28-FD8385ED67DC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B530FAFF-C104-41E1-BF28-FD8385ED67DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B530FAFF-C104-41E1-BF28-FD8385ED67DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B530FAFF-C104-41E1-BF28-FD8385ED67DC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B530FAFF-C104-41E1-BF28-FD8385ED67DC} = {540C5756-F853-41C8-9D19-36C8B62CE8DA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE45F417-14AF-466A-8A15-F65A936652CC}
+	EndGlobalSection
+EndGlobal

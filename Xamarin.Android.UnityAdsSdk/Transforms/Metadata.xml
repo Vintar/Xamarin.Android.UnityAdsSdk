@@ -1,0 +1,4 @@
+﻿<metadata>
+  <attr path="/api/package[@name='com.unity3d.services.store']/class[@name='StoreError']/field[@name='STORE_ERROR']" name="managedName">StoreError_2</attr>
+  <attr path="/api/package[@name='com.unity3d.services.core.request']/interface[@name='IWebRequestListener']/method[@name='onFailed']" name="managedName">onFailed_2</attr>
+</metadata>

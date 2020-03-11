@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("UnityAdsSdkSample.Droid.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("UnitySdkSample.Droid.Resource", IsApplication=true)]
 
-namespace UnityAdsSdkSample.Droid
+namespace UnitySdkSample.Droid
 {
 	
 	

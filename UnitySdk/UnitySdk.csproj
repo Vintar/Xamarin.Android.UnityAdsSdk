@@ -10,7 +10,7 @@
     <TemplateGuid>{77efb91c-a7e9-4b0e-a7c5-31eeec3c6d46}</TemplateGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Xamarin.Android.UnityAdsSdk</RootNamespace>
+    <RootNamespace>UnitySdk</RootNamespace>
     <AssemblyName>Xamarin.Android.UnityAdsSdk</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
@@ -42,6 +42,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Additions\Class.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

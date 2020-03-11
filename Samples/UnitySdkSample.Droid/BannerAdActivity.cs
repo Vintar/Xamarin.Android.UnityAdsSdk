@@ -7,7 +7,7 @@ using Com.Unity3d.Ads;
 using Com.Unity3d.Services.Banners;
 using Com.Unity3d.Services.Banners.View;
 
-namespace UnityAdsSdkSample.Droid
+namespace UnitySdkSample.Droid
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme")]
     public class BannerAdActivity : AppCompatActivity

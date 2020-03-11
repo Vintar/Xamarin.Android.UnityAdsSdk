@@ -5,7 +5,7 @@ using Android.Widget;
 using Com.Unity3d.Ads;
 using static Com.Unity3d.Ads.UnityAds;
 
-namespace UnityAdsSdkSample.Droid
+namespace UnitySdkSample.Droid
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme")]
     public class RewardedAdActivity : AppCompatActivity

@@ -3,7 +3,7 @@ using Android.OS;
 using Android.Support.V7.App;
 using Android.Widget;
 
-namespace UnityAdsSdkSample.Droid
+namespace UnitySdkSample.Droid
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity

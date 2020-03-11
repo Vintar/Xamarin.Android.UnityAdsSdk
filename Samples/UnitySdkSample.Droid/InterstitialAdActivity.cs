@@ -4,7 +4,7 @@ using Android.Support.V7.App;
 using Android.Widget;
 using Com.Unity3d.Ads;
 
-namespace UnityAdsSdkSample.Droid
+namespace UnitySdkSample.Droid
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme")]
     public class InterstitialAdActivity : AppCompatActivity

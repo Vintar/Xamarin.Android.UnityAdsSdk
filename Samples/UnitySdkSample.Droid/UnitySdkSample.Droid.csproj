@@ -10,8 +10,8 @@
     <TemplateGuid>{122416d6-6b49-4ee2-a1e8-b825f31c79fe}</TemplateGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UnityAdsSdkSample.Droid</RootNamespace>
-    <AssemblyName>UnityAdsSdkSample.Droid</AssemblyName>
+    <RootNamespace>UnitySdkSample.Droid</RootNamespace>
+    <AssemblyName>UnitySdkSample.Droid</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
@@ -107,12 +107,6 @@
     <PackageReference Include="Xamarin.Android.Support.CustomTabs" Version="28.0.0.3" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Xamarin.Android.UnityAdsSdk\Xamarin.Android.UnityAdsSdk.csproj">
-      <Project>{d5ec8adb-1bbe-46f5-b07f-c9428b4982ee}</Project>
-      <Name>Xamarin.Android.UnityAdsSdk</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\layout\activity_interstitial_ad.xml">
       <Generator>MSBuild:UpdateGeneratedFiles</Generator>
       <SubType>Designer</SubType>
@@ -129,6 +123,12 @@
       <Generator>MSBuild:UpdateGeneratedFiles</Generator>
       <SubType>Designer</SubType>
     </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\UnitySdk\UnitySdk.csproj">
+      <Project>{d5ec8adb-1bbe-46f5-b07f-c9428b4982ee}</Project>
+      <Name>UnitySdk</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
